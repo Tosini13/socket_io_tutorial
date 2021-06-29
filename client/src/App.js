@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <button onClick={() => setLoadClient((prevState) => !prevState)}>
-        {loadClient ? "STOP" : "START"} Client
+        {loadClient ? "STOP" : "START"} Sockets
       </button>
       {loadClient ? <ClientComponent /> : null}
       {loadClient ? <FastData /> : null}
